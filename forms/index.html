@@ -1,0 +1,18 @@
+<form action="/process" method="post">
+  <div>
+    <label>Name: </label>
+    <input type="text" name="name" placeholder="Your name...">
+  </div>
+  <div>
+    <label>Email: </label>
+    <input type="text" name="email" placeholder="Your email...">
+  </div>
+  <div>
+    <!-- name used on inputs must be the same, id must be different -->
+    <input type="radio" name="offers" id="offers">
+    <label for="offers">I would like to receive email offers!</label>
+    <input type="radio" name="offers" id="nooffers">
+    <label for="nooffers">No offers!</label>
+  </div>
+  <input type="submit" value="Sign Up!">
+</form>
