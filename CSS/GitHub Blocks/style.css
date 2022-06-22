@@ -1,0 +1,43 @@
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 700px;
+}
+
+img.octocat {
+  height: 200px;
+}
+
+h1,
+p {
+  text-align: center;
+  font-family: sans-serif
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+.container {
+  /* border: 2px solid black; */
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#first {
+  justify-content: space-around;
+  background-color: cadetblue;
+}
+
+#second {
+  justify-content: space-evenly;
+  background-color: coral;
+}
+
+#third {
+  justify-content: space-between;
+  background-color: fuchsia;
+}
