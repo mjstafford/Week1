@@ -1,0 +1,24 @@
+.container {
+  background-color: brown;
+  width: 960px;
+  padding: 20px;
+  overflow: hidden;
+  height: auto;
+}
+
+#one,
+#two,
+#three {
+  background-color: aqua;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 0 20px;
+  padding: 20px;
+}
+
+#one,
+#two,
+#three {
+  float: right;
+}
