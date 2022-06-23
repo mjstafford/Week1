@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+img {
+  width: 50px;
+}
+
+.card>h2 {
+  margin-top: 20px;
+}
+
+.userIcon {
+  position: absolute;
+  top: 85px;
+  border: white 5px solid;
+  outline: black 2px solid;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px white;
+  filter: invert(1);
+}
+
+.description {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.edit {
+  font-size: 13px;
+}
+
+#marker,
+#gear {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.location>p {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card>* {
+  margin: 3px 0px 3px 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 70%;
+  margin: 50px auto;
+  padding: 10px;
+  border: 3px solid #CDCDCD;
+  border-top: 70px solid #17A2B8;
+}
