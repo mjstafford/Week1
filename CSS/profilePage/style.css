@@ -1,4 +1,4 @@
-/* normalize */
+/* normalize & add new font*/
 * {
   margin: 0;
   padding: 0;
@@ -24,11 +24,16 @@
 
 .links a {
   text-decoration: none;
-  color: white;
+  color: gray;
 }
 
 .links>li {
   padding-right: 20px;
+}
+
+a.active {
+  color: white;
+  font-weight: bolder;
 }
 
 /* header  start*/
@@ -58,7 +63,7 @@
 /* column  start*/
 .col {
   max-width: 400px;
-  min-width: 400px;
+  /* min-width: 400px; */
 }
 
 .container.main {
@@ -110,6 +115,7 @@
 
 .container>p {
   margin-left: 20px;
+  margin-right: 10px
 }
 
 .top.container {
@@ -129,8 +135,8 @@
 }
 
 .right-col {
-  min-width: 250px;
-  max-width: 250px;
+  /* min-width: 250px; */
+  max-width: 300px;
 }
 
 .numberOfConnections {
@@ -165,6 +171,11 @@
 
 .main.connections {
   margin: 10px;
+}
+
+.friendFooter {
+  border-top: #CCCCCC solid 2px;
+  padding: 10px;
 }
 
 /* column  end*/
