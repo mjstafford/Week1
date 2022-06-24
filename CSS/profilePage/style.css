@@ -89,6 +89,7 @@ a.active {
 .userIcon {
   width: 80px;
   position: absolute;
+  /* ideally use relative compared to absolute  */
   top: 120px;
   border: white 5px solid;
   outline: black 2px solid;
