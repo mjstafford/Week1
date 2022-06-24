@@ -6,12 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="header container">
 
-    <div class="headerLinks">
+    <div class="headerLinks container">
       <h1>Profile</h1>
       <ul class="links">
         <li><a href="#">Home</a></li>
@@ -26,16 +30,114 @@
 
   </div>
 
-  <div class="container">
+  <div class="main container">
+    <div class="col left-col">
+      <div class="card">
+        <div class="top"></div>
+        <div class="main">
+          <img class="userIcon" src="./images/jane-m.jpg" alt="user icon">
+          <h1>Jane Doe</h1>
+          <div class="container icon">
+            <img src="./icons/map-marker.png" alt="map icon" class="icon-small">
+            <p>Seattle</p>
+          </div>
+          <div class="description">
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Master of shadows and the Internet!</p>
+          </div>
+          <div class="container icon">
+            <img src="./icons/gear.png" alt="gear icon" class="icon-small">
+            <a href="#">edit profile</a>
+          </div>
+        </div>
+      </div>
 
-    <div class="col">
-      <div class="card"></div>
-      <div class="education"></div>
+      <div class="education">
+        <div class="top container">
+          <p>Education</p>
+        </div>
+        <div class="main">
+          <h3>Coding Dojo - Full Stack Bootcamp</h3>
+          <p>Dec 2019 - Mar 2020</p>
+
+          <div class="description">
+            <p>Triple black belt in Python, MERN, and Java... Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Vero dolore deleniti deserunt rerum architecto fugit distinctio ad nisi ullam sit, rem debitis possimus
+              quasi, aut pariatur laboriosam officia fuga. Iure. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Quis soluta magnam alias, odio rem voluptate praesentium expedita doloribus aut repellendus debitis
+              et dolorem assumenda illo, amet consequatur explicabo ipsam ex! Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. In, excepturi facere? Incidunt odit provident cum deserunt consectetur eveniet nemo nam?
+              Corrupti, cumque sit. Quas sequi perferendis provident eligendi necessitatibus numquam.</p>
+          </div>
+
+        </div>
+      </div>
     </div>
 
-    <div class="col">
-      <div class="connectionRequests"></div>
-      <div class="yourConnections"></div>
+    <div class="col right-col">
+      <div class="connectionRequests">
+        <div class="top container">
+          <p class="numberOfConnections">2</p>
+          <p>Connection Requests</p>
+        </div>
+        <div class="main connections">
+          <div class="friend container">
+            <div class="container">
+              <img class="friendIcon" src="./images/todd-s.jpg" alt="friend icon">
+              <p>Todd E</p>
+            </div>
+            <div class="container">
+              <img class="icon-small" src="./icons/accept-circle.png" alt="friend icon">
+              <img class="icon-small" src="./icons/close-circle.png" alt="friend icon">
+            </div>
+          </div>
+
+          <div class="friend container">
+            <div class="container">
+              <img class="friendIcon" src="./images/phil-s.jpg" alt="friend icon">
+              <p>phil K</p>
+            </div>
+            <div class="container">
+              <img class="icon-small" src="./icons/accept-circle.png" alt="friend icon">
+              <img class="icon-small" src="./icons/close-circle.png" alt="friend icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="yourConnections">
+        <div class="top container">
+          <p class="numberOfConnections">500+</p>
+          <p>Your Connections</p>
+        </div>
+        <div class="main connections">
+          <div class="friend container">
+            <div class="container">
+              <img class="friendIcon" src="./images/adrien-s.jpg" alt="friend icon">
+              <p>Adrien D</p>
+            </div>
+          </div>
+
+          <div class="friend container">
+            <div class="container">
+              <img class="friendIcon" src="./images/anne-s.jpg" alt="friend icon">
+              <p>Anne J</p>
+            </div>
+          </div>
+          <div class="friend container">
+            <div class="container">
+              <img class="friendIcon" src="./images/alayne-s.jpg" alt="friend icon">
+              <p>Alayne T</p>
+            </div>
+          </div>
+          <div class="friend container">
+            <div class="container">
+              <img class="friendIcon" src="./images/arry-s.jpg" alt="friend icon">
+              <p>Arry Y</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
 
   </div>

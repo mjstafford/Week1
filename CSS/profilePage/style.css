@@ -1,4 +1,169 @@
+/* normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+.icon-small {
+  width: 15px
+}
+
 .container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.links>li {
+  padding-right: 20px;
+}
+
+/* header  start*/
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.header h1 {
+  margin-right: 20px;
+}
+
+.signOutBtn>input {
+  padding: 3px 15px;
+  color: white;
+  background-color: #17A2B8;
+}
+
+/* header  end*/
+
+
+/* column  start*/
+.col {
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.container.main {
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.card,
+.education,
+.yourConnections,
+.connectionRequests {
+  border: 2px solid #CCCCCC;
+  margin: 20px 0px;
+}
+
+.top {
+  padding: 0px;
+  background-color: #17A2B8;
+  height: 60px;
+}
+
+.userIcon {
+  width: 80px;
+  position: absolute;
+  top: 120px;
+  border: white 5px solid;
+  outline: black 2px solid;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px white;
+}
+
+.main {
+  margin: 30px 40px 20px 20px;
+}
+
+.main>* {
+  margin: 10px 0px;
+}
+
+.container.icon {
+  justify-content: flex-start;
+}
+
+.container.icon>p,
+.container.icons>a {
+  margin-left: 20px;
+}
+
+.container>p {
+  margin-left: 20px;
+}
+
+.top.container {
+  color: white;
+  padding: 20px 0px;
+}
+
+.top.container {
+  height: 30px;
+  background-color: black;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left-col {
+  margin-right: 40px;
+}
+
+.right-col {
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.numberOfConnections {
+  width: 50px;
+  height: 25px;
+  line-height: 24px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: grey;
+  color: black;
+}
+
+.connectionRequests .numberOfConnections {
+  width: 25px;
+}
+
+.friendIcon {
+  width: 40px;
+  /* position: absolute;
+  top: 120px; */
+  /* border: white 5px solid; */
+  outline: black 2px solid;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px white;
+}
+
+.friend.container {
+  justify-content: space-between;
+}
+
+.friend.container div>.icon-small {
+  width: 20px;
+  margin: 3px;
+}
+
+.main.connections {
+  margin: 10px;
+}
+
+/* column  end*/
